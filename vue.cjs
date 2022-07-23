@@ -17,10 +17,10 @@ module.exports = {
 		// "eslint:recommended",
 		"./base.cjs",
 		"plugin:vue/vue3-recommended",
-		"./vue-rules.cjs"
+		"./vue-rules.cjs",
 	],
 	"rules": {
-	}
+	},
 	// "globals": {
 	// 	"defineProps": "readonly",
 	// 	"defineEmits": "readonly",
