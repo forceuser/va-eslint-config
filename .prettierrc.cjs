@@ -1,0 +1,16 @@
+module.exports = {
+	"printWidth":100,
+	"tabWidth":4,
+	"useTabs":true,
+	"semi":true,
+	"singleQuote":false,
+	"trailingComma":"es5",
+	"bracketSpacing":false,
+	"bracketLine":true,
+	"arrowParens":"always",
+	"rangeEnd":null,
+	"requirePragma":false,
+	"insertPragma":false,
+	"proseWrap":"preserve",
+	"singleAttributePerLine": true,
+}
