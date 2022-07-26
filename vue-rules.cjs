@@ -1,6 +1,5 @@
 module.exports = {
 	"rules": {
-		// TypeScript rules
 		"no-unused-vars": ["off"],
 		"no-undef": ["off"],
 		"vue/no-unused-vars": ["warn"],

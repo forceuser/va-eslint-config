@@ -1,6 +1,6 @@
 {
 	"name": "va-eslint-config",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "",
 	"main": "index.cjs",
 	"type": "module",
@@ -17,6 +17,7 @@
 		"core-js": "^3",
 		"eslint": ">=8",
 		"eslint-plugin-es": ">=4",
+		"eslint-plugin-unicorn": ">=43",
 		"eslint-plugin-vue": ">=9",
 		"typescript": ">=4"
 	},

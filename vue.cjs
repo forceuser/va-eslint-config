@@ -7,24 +7,15 @@ module.exports = {
 			"ts": "@typescript-eslint/parser",
 		},
 		"sourceType": "module",
-		// "ecmaVersion": 2020,
-		// "project": "./tsconfig.json",
 	},
 	"plugins": [
 		"vue",
 	],
 	"extends": [
-		// "eslint:recommended",
-		"./base.cjs",
 		"plugin:vue/vue3-recommended",
+		"./base.cjs",
 		"./vue-rules.cjs",
 	],
 	"rules": {
 	},
-	// "globals": {
-	// 	"defineProps": "readonly",
-	// 	"defineEmits": "readonly",
-	// 	"defineExpose": "readonly",
-	// 	"withDefaults": "readonly",
-	// },
 };

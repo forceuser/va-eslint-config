@@ -13,12 +13,6 @@ module.exports = {
 			],
 		},
 		{
-			"files": ["**/*.ts", "**/*.tsx"],
-			"extends": [
-				"./typescript.cjs",
-			],
-		},
-		{
 			"files": ["**/*.vue"],
 			"extends": [
 				"./vue.cjs",

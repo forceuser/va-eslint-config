@@ -8,6 +8,7 @@ module.exports = {
 	"extends": [
 		"eslint:recommended",
 		"./base-rules.cjs",
+		"./unicorn.cjs",
 	],
 	"env": {
 		"browser": true,
