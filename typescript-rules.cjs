@@ -49,6 +49,9 @@ module.exports = {
 			"stroustrup",
 			{allowSingleLine: true},
 		],
+		"no-spaced-func": ["off"],
+		"func-call-spacing": ["off"],
+		"@typescript-eslint/func-call-spacing": ["error", "never"],
 		// =====
 		// "@typescript-eslint/adjacent-overload-signatures": ["off"],
 		// "@typescript-eslint/array-type": ["off"],

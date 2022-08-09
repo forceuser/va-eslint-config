@@ -18,6 +18,7 @@ module.exports = {
 		"one-var": ["error", "never"],
 
 		// spacing
+		"func-call-spacing": ["error", "never"],
 		"generator-star-spacing": ["off"],
 		"object-curly-spacing": ["error", "never"],
 		"array-bracket-spacing": ["error", "never"],
@@ -61,7 +62,6 @@ module.exports = {
 		"no-sparse-arrays": ["error"],
 		"no-extra-semi": ["error"],
 		"no-func-assign": ["error"],
-		"no-spaced-func": ["error"],
 		"no-unused-vars": ["warn"],
 		"no-inner-declarations": ["error"],
 		"no-console": ["off"],
