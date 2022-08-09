@@ -13,12 +13,7 @@ module.exports = {
 	],
 	"extends": [
 		"plugin:vue/vue3-recommended",
-		"eslint:recommended",
-		"plugin:@typescript-eslint/eslint-recommended",
-		"plugin:@typescript-eslint/recommended",
-		"./base-rules.cjs",
-		"./typescript-rules.cjs",
-		"./unicorn.cjs",
+		"./base.cjs",
 	],
 	"rules": {
 	},
