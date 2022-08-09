@@ -8,7 +8,7 @@ module.exports = {
 	"extends": [
 		"eslint:recommended",
 		"./base-rules.cjs",
-		"./unicorn.cjs",
+		"./unicorn-rules.cjs",
 	],
 	"env": {
 		"browser": true,
@@ -18,6 +18,7 @@ module.exports = {
 	"settings": {
 	},
 	"plugins": [
+		"unicorn"
 	],
 	"globals": {
 		"globalThis": "readonly",

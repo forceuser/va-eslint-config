@@ -6,14 +6,19 @@ module.exports = {
 			"<template>": "@babel/eslint-parser",
 			"ts": "@typescript-eslint/parser",
 		},
+		"ecmaVersion": 13,
 		"sourceType": "module",
 	},
 	"plugins": [
 		"vue",
+		"unicorn",
 	],
 	"extends": [
 		"plugin:vue/vue3-recommended",
-		"./base.cjs",
+		"eslint:recommended",
+		"./vue-rules.cjs",
+		"./base-rules.cjs",
+		"./unicorn-rules.cjs",
 	],
 	"rules": {
 	},
