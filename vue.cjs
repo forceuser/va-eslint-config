@@ -14,7 +14,7 @@ module.exports = {
 	"extends": [
 		"plugin:vue/vue3-recommended",
 		"./base.cjs",
-		"./typescript-rules.cjs",
+		"./typescript.cjs",
 		"./vue-rules.cjs",
 	],
 	"rules": {
