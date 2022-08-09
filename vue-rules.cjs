@@ -17,5 +17,11 @@ module.exports = {
 			"svg": "always",
 			"math": "always",
 		}],
+		"vue/component-tags-order": ["error", {
+			"order": ["template", "i18n", "script:not([setup])", "script[setup]", "style"],
+		}],
+		"vue/define-macros-order": ["error", {
+			"order": ["defineEmits", "defineProps"],
+		}],
 	},
 };
