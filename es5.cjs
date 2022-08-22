@@ -1,4 +1,10 @@
 module.exports = {
+	"parser": "@babel/eslint-parser",
+	"parserOptions": {
+		"ecmaVersion": 13,
+		"sourceType": "module",
+		"requireConfigFile": false,
+	},
 	"env": {
 		"browser": true,
 		"commonjs": false,

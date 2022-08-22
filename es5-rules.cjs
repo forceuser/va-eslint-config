@@ -1,5 +1,8 @@
 module.exports = {
 	"rules": {
-		"no-var": "off",
+		"no-var": ["off"],
+		"prefer-arrow-callback": ["off"],
+		"object-shorthand": ["off"],
+		"no-useless-concat": ["off"],
 	},
 };
