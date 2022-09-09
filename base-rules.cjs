@@ -5,7 +5,7 @@ module.exports = {
 		"require-yield": ["off"],
 		"no-this-before-super": ["error"],
 		// STYLE
-		"indent": ["error", "tab", {"SwitchCase": 1}],
+		"indent": ["error", "tab", {"SwitchCase": 1, "ignoredNodes": ["TemplateLiteral *"]}],
 		"eol-last": ["error"],
 		// "linebreak-style": ["error", "unix"],
 

@@ -2,7 +2,7 @@ module.exports = {
 	rules: {
 		"no-undef": ["off"],
 		indent: ["off"],
-		"@typescript-eslint/indent": ["error", "tab", {SwitchCase: 1}],
+		"@typescript-eslint/indent": ["error", "tab", {"SwitchCase": 1, "ignoredNodes": ["TemplateLiteral *"]}],
 		quotes: ["off"],
 		"@typescript-eslint/quotes": [
 			"error",
