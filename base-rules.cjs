@@ -44,6 +44,7 @@ module.exports = {
 		"keyword-spacing": ["error", {"before": true, "after": true}],
 		"arrow-spacing": ["error", {"before": true, "after": true}],
 		// ======================================================================
+		"no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
 		"no-control-regex": ["warn"],
 		"no-useless-rename": ["error", {
 			"ignoreDestructuring": false,
